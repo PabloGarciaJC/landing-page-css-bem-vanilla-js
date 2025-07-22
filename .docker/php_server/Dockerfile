@@ -58,8 +58,7 @@ COPY . /var/www/html
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs && \
     npm install -g npm && \
-    npm install -g typescript && \
-    npm install -g sass
+    npm install -g typescript
 
 ## ---------------------------------------------------------
 ## Configurar bash
