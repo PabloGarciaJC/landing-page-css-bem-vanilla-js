@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,10 +10,10 @@
 
 <body>
   <header class="header">
-    <div class="container header__container">
+    <div class="header__container container">
       <h1 class="header__logo">PabloGarciaJC</h1>
       <button id="menu-btn" class="header__menu-btn" aria-label="Abrir menú">
-        <svg class="header__icon-menu" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+        <svg class="header__icon icon-menu" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
@@ -24,120 +25,98 @@
         <a href="#portafolio" class="nav__link">Portafolio</a>
         <a href="#contacto" class="nav__link">Contacto</a>
       </nav>
-      <a href="#contacto" class="button button--primary">Solicita una propuesta</a>
+      <a href="#contacto" class="btn btn--primary">Solicita una propuesta</a>
     </div>
   </header>
 
   <main>
     <section id="inicio" class="hero">
-      <div class="container hero__content">
+      <div class="hero__content container">
         <h2 class="hero__title">Soluciones web para negocios modernos</h2>
-        <a href="#contacto" class="button button--secondary">Trabajemos juntos</a>
+        <a href="#contacto" class="btn btn--secondary">Trabajemos juntos</a>
       </div>
       <div class="hero__overlay"></div>
     </section>
 
-    <section id="servicios" class="services">
-      <div class="container services__container">
-        <h3 class="section-title">¿Qué hacemos?</h3>
-        <div class="services__grid">
-          <article class="services__item">
-            <h4 class="services__item-title">Diseño Web Corporativo</h4>
-            <p class="services__item-desc">Creamos sitios profesionales, visualmente atractivos y adaptados a cualquier dispositivo.</p>
+    <section id="servicios" class="servicios">
+      <div class="servicios__container container">
+        <h3 class="servicios__title section-title">¿Qué hacemos?</h3>
+        <div class="servicios__grid">
+          <article class="servicio">
+            <h4 class="servicio__title">Diseño Web Corporativo</h4>
+            <p class="servicio__desc">Creamos sitios profesionales, visualmente atractivos y adaptados a cualquier
+              dispositivo.</p>
           </article>
-          <article class="services__item">
-            <h4 class="services__item-title">Tiendas Online</h4>
-            <p class="services__item-desc">Desarrollamos ecommerce con pasarelas de pago, SEO técnico y gestión sencilla.</p>
+          <article class="servicio">
+            <h4 class="servicio__title">Tiendas Online</h4>
+            <p class="servicio__desc">Desarrollamos ecommerce con pasarelas de pago, SEO técnico y gestión sencilla.</p>
           </article>
-          <article class="services__item">
-            <h4 class="services__item-title">Apps Web a Medida</h4>
-            <p class="services__item-desc">Creamos plataformas personalizadas para automatizar procesos y escalar tu negocio.</p>
+          <article class="servicio">
+            <h4 class="servicio__title">Apps Web a Medida</h4>
+            <p class="servicio__desc">Creamos plataformas personalizadas para automatizar procesos y escalar tu negocio.
+            </p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="portafolio" class="portfolio">
-      <div class="container portfolio__container">
-        <h3 class="section-title section-title--white">Portafolio</h3>
-        <div class="portfolio__grid">
-          <a href="https://red-social-app.pablogarciajc.com/login" target="_blank" class="portfolio__item">
-            <img src="https://pablogarciajc.com/wp-content/uploads/2025/01/red_social_1_webp.webp" alt="Red Social" class="portfolio__item-img" />
-            <div class="portfolio__info">
-              <h4 class="portfolio__item-title">Red Social</h4>
-              <p class="portfolio__item-desc">Plataforma social con perfiles, publicaciones, comentarios y notificaciones.</p>
+    <section id="portafolio" class="portafolio">
+      <div class="portafolio__container container">
+        <h3 class="portafolio__title section-title section-title--white">Portafolio</h3>
+        <div class="portafolio__grid">
+          <a href="https://red-social-app.pablogarciajc.com/login" target="_blank" class="portafolio__item">
+            <img src="https://pablogarciajc.com/wp-content/uploads/2025/01/red_social_1_webp.webp" alt="Red Social" class="portafolio__img" />
+            <div class="portafolio__info">
+              <h4 class="portafolio__item-title">Red Social</h4>
+              <p class="portafolio__item-desc">Plataforma social con perfiles, publicaciones, comentarios y notificaciones.</p>
             </div>
           </a>
-          <a href="https://pablogarciajc.com/ecommerce" target="_blank" class="portfolio__item">
-            <img src="https://pablogarciajc.com/wp-content/uploads/2025/01/ecommerce_1_webp.png" alt="CMS Ecommerce" class="portfolio__item-img" />
-            <div class="portfolio__info">
-              <h4 class="portfolio__item-title">CMS – Ecommerce</h4>
-              <p class="portfolio__item-desc">Desarrollo de tienda online con catálogo, pasarela de pagos y diseño responsive.</p>
+          <a href="https://pablogarciajc.com/ecommerce" target="_blank" class="portafolio__item">
+            <img src="https://pablogarciajc.com/wp-content/uploads/2025/01/ecommerce_1_webp.png" alt="CMS Ecommerce" class="portafolio__img" />
+            <div class="portafolio__info">
+              <h4 class="portafolio__item-title">CMS – Ecommerce</h4>
+              <p class="portafolio__item-desc">Desarrollo de tienda online con catálogo, pasarela de pagos y diseño responsive.</p>
             </div>
           </a>
-          <a href="https://finanzashogar.pablogarciajc.com/login" target="_blank" class="portfolio__item">
-            <img src="https://pablogarciajc.com/wp-content/uploads/2025/07/sistema_finanzas_hogar1.webp" alt="Sistema de Finanzas para el Hogar" class="portfolio__item-img" />
-            <div class="portfolio__info">
-              <h4 class="portfolio__item-title">Sistema de Finanzas para el Hogar</h4>
-              <p class="portfolio__item-desc">App web para gestionar ingresos, gastos y presupuestos familiares fácilmente.</p>
+          <a href="https://finanzashogar.pablogarciajc.com/login" target="_blank" class="portafolio__item">
+            <img src="https://pablogarciajc.com/wp-content/uploads/2025/07/sistema_finanzas_hogar1.webp" alt="Sistema de Finanzas para el Hogar" class="portafolio__img" />
+            <div class="portafolio__info">
+              <h4 class="portafolio__item-title">Sistema de Finanzas para el Hogar</h4>
+              <p class="portafolio__item-desc">App web para gestionar ingresos, gastos y presupuestos familiares fácilmente.</p>
             </div>
           </a>
         </div>
       </div>
     </section>
 
-    <section id="nosotros" class="about">
-      <div class="container about__container">
-        <h3 class="section-title">Sobre Nosotros</h3>
-        <p class="about__text">
-          Somos una agencia digital enfocada en soluciones web que realmente funcionan. Desde 2019, hemos ayudado a empresas a escalar sus negocios mediante herramientas digitales a medida, eficientes y visualmente impecables.
+    <section id="nosotros" class="nosotros">
+      <div class="nosotros__container container">
+        <h3 class="nosotros__title section-title">Sobre Nosotros</h3>
+        <p class="nosotros__text">
+          Somos una agencia digital enfocada en soluciones web que realmente funcionan. Desde 2019, hemos ayudado a
+          empresas a escalar sus negocios mediante herramientas digitales a medida, eficientes y visualmente impecables.
         </p>
       </div>
     </section>
 
-    <section id="contacto" class="contact">
-      <div class="container contact__container">
-        <h3 class="section-title section-title--white">¿Hablamos?</h3>
-        <p class="contact__text">Cuéntanos sobre tu proyecto y te enviaremos una propuesta personalizada.</p>
-        <form class="contact__form">
-          <input type="text" placeholder="Nombre" class="contact__input" required />
-          <input type="email" placeholder="Correo electrónico" class="contact__input" required />
-          <textarea placeholder="Mensaje" rows="4" class="contact__input contact__textarea" required></textarea>
-          <button type="submit" class="button button--primary button--full">Enviar mensaje</button>
+    <section id="contacto" class="contacto">
+      <div class="contacto__content">
+        <h3 class="contacto__title">¿Hablamos?</h3>
+        <p class="contacto__text">Cuéntanos sobre tu proyecto y te enviaremos una propuesta personalizada.</p>
+        <form class="contacto__form">
+          <input type="text" placeholder="Nombre" class="contacto__input" />
+          <input type="email" placeholder="Correo electrónico" class="contacto__input" />
+          <textarea placeholder="Mensaje" rows="4" class="contacto__input contacto__input--textarea"></textarea>
+          <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
         </form>
       </div>
     </section>
+
   </main>
 
   <footer class="footer">
     <p class="footer__text">Desarrollado por © Pablo Garcia JC</p>
   </footer>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-  const animItems = document.querySelectorAll('.fadeInUp, .section-title, .hero__content, .services__item, .portfolio__item, .about__text, .contact__text, .contact__form, .footer');
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if(entry.isIntersecting) {
-        entry.target.style.opacity = 1;
-        entry.target.style.transform = 'translateY(0)';
-        entry.target.style.animationPlayState = 'running';
-        observer.unobserve(entry.target);
-      }
-    });
-  }, {
-    threshold: 0.2
-  });
-
-  animItems.forEach(item => {
-    item.style.opacity = 0;
-    item.style.transform = 'translateY(30px)';
-    item.style.animationPlayState = 'paused';
-    observer.observe(item);
-  });
-});
-
-  </script>
 </body>
+
 </html>
