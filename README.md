@@ -32,7 +32,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 ---
 
-## 🎯 Animaciones y comportamiento dinámico
+## 🎯 Animaciones
 
 - Las animaciones se aplican dinámicamente a los elementos al entrar en el viewport.
 - Uso de `IntersectionObserver` para detectar la visibilidad y activar las animaciones.
