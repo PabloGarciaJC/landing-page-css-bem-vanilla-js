@@ -6,7 +6,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 [https://landing-page.pablogarciajc.com/](https://landing-page.pablogarciajc.com/)
 
-| ![Imagen 1](https://pablogarciajc.com/wp-content/uploads/2025/07/landing-page-sass1.webp) | ![Imagen 2](https://pablogarciajc.com/wp-content/uploads/2025/07/landing-page-sass2.webp) |
+| ![Imagen 1](https://pablogarciajc.com/wp-content/uploads/2025/07/landing-page-css-bem_1.webp) | ![Imagen 2](https://pablogarciajc.com/wp-content/uploads/2025/07/landing-page-css-bem_2.webp) |
 |-----------|-----------|
 
 ---
