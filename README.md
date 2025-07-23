@@ -4,7 +4,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 ## 🚀 Demo del Proyecto
 
-[https://landing-page.pablogarciajc.com/](https://landing-page.pablogarciajc.com/)
+[https://landing-page-css-bem-vanilla-js.pablogarciajc.com/](https://landing-page-css-bem-vanilla-js.pablogarciajc.com/)
 
 | ![Imagen 1](https://pablogarciajc.com/wp-content/uploads/2025/07/landing-page-css-bem_1.webp) | ![Imagen 2](https://pablogarciajc.com/wp-content/uploads/2025/07/landing-page-css-bem_2.webp) |
 |-----------|-----------|
