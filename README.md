@@ -1,51 +1,42 @@
-# Landing Page – Sass
+# Landing Page – CSS3 + BEM + Vanilla JS
 
-Landing page desarrollada con **HTML5** y **Sass** como preprocesador CSS, pensada como base escalable para integrar futuras funcionalidades, tecnologías o frameworks.
+Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usando la metodología **BEM** para una estructura clara y escalable. Animaciones implementadas con **Intersection Observer** sin dependencias externas.
 
-## Demo del Proyecto
+## 🚀 Demo del Proyecto
 
-[https://landing-page-sass.pablogarciajc.com/](https://landing-page-sass.pablogarciajc.com/)
+[https://landing-page.pablogarciajc.com/](https://landing-page.pablogarciajc.com/)
 
 | ![Imagen 1](https://pablogarciajc.com/wp-content/uploads/2025/07/landing-page-sass1.webp) | ![Imagen 2](https://pablogarciajc.com/wp-content/uploads/2025/07/landing-page-sass2.webp) |
 |-----------|-----------|
 
 ---
 
-## Funcionalidades principales
+## 📌 Funcionalidades principales
 
 - Menú de navegación adaptable para dispositivos móviles y escritorio.
-- Secciones integradas: Inicio, Nosotros, Servicios, Portafolio y Contacto.
-- Formulario de contacto estilizado.
-- Estilos personalizados usando configuración extendida de Tailwind (via CDN).
+- Secciones: Inicio, Nosotros, Servicios, Portafolio, Contacto y Footer.
+- Animaciones al hacer scroll usando `IntersectionObserver`.
+- Estructura y clases organizadas con **BEM**.
+- Diseño responsive y ligero.
+- Sin frameworks ni preprocesadores.
 
 ---
 
-## Tecnologías utilizadas
+## ⚙️ Tecnologías utilizadas
 
-- **HTML5 semántico**.
-- **Sass** (preprocesador CSS compilado a CSS puro).
-- **CSS3** (resultado compilado).
-- Entorno preparado para integrarse con herramientas como Vite o Webpack si se desea escalar.
+- **HTML5 semántico**
+- **CSS3** (con variables CSS)
+- **JavaScript Vanilla (ES6+)**
+- **BEM (Block Element Modifier)** como metodología de nombrado
+- **Intersection Observer** para detectar elementos en el viewport
 
 ---
 
-## Uso de Sass en el Proyecto
+## 🎯 Animaciones y comportamiento dinámico
 
-Este proyecto utiliza **Sass** como preprocesador CSS para facilitar la escritura y mantenimiento de estilos, aplicando conceptos avanzados que permiten un código más limpio, modular y escalable.
-
-### Conceptos y características principales usadas
-
-- **Variables:** Para almacenar colores, tamaños y otros valores reutilizables, facilitando cambios globales y manteniendo consistencia.
-- **Mapas:** Colecciones clave-valor para agrupar colores de botones y otros estilos temáticos, mejorando la organización.
-- **Mixins:** Bloques reutilizables de estilos, como el mixin `flex-center` para centrar contenido con flexbox, que evitan la repetición y permiten parametrización.
-- **Funciones:** Para obtener valores dinámicos, por ejemplo, la función `btn-color($key)` que extrae colores de un mapa.
-- **Nesting (Anidación):** Permite escribir selectores CSS anidados de forma jerárquica y clara, reflejando la estructura HTML y mejorando la legibilidad.
-- **Operador `&`:** Usado para referirse al selector padre dentro de reglas anidadas, facilitando la escritura de estados como `:hover` o variantes como `.btn--primary`.
-- **Uso de módulos de Sass (`@use`):** Importación organizada de módulos oficiales (`sass:color`, `sass:map`) y archivos personalizados para mantener el código modular y limpio.
-- **Media queries anidados:** Incorporación de consultas responsivas dentro de bloques específicos para facilitar estilos adaptativos sin dispersar el código.
-- **Funciones de color (`color.adjust`):** Manipulación dinámica de colores para efectos visuales en estados como hover, mejorando la experiencia de usuario.
-
-Gracias a estas características, el código CSS generado es limpio, eficiente y fácil de mantener, facilitando futuras escalas y modificaciones.
+- Las animaciones se aplican dinámicamente a los elementos al entrar en el viewport.
+- Uso de `IntersectionObserver` para detectar la visibilidad y activar las animaciones.
+- Animaciones definidas con `@keyframes` y transiciones CSS para efectos suaves y fluidos.
 
 ---
 
