@@ -11,7 +11,9 @@
 <body>
   <header class="header">
     <div class="header__container container">
-      <h1 class="header__logo">PabloGarciaJC</h1>
+      <h1 class="header__logo">
+          <a href="#inicio">PabloGarciaJC</a>
+      </h1>
       <button id="menu-btn" class="header__menu-btn" aria-label="Abrir menú">
         <svg class="header__icon icon-menu" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -112,8 +114,8 @@
     </section>
   </main>
 
-  <footer class="footer">
-    <p class="footer__text">Desarrollado por © Pablo Garcia JC</p>
+  <footer class="footer animation__slide--left">
+    <p class="footer__text ">Desarrollado por © Pablo Garcia JC</p>
   </footer>
 
   <script>
@@ -123,6 +125,7 @@
       menu.classList.toggle('active');
     });
   </script>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -352,6 +352,12 @@ img {
 
 /* Animaciones */
 /* Animaciones */
+
+
+
+ /* # ANIMACIONES
+================================================== */
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -366,3 +372,91 @@ img {
   0% { opacity: 0; transform: translateY(30px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+
+
+  @keyframes animation__slide-right-keyframes {
+      from {
+          transform: translateX(100%);
+          opacity: 1;
+      }
+
+      to {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+
+  @keyframes animation__slide-left-keyframes {
+      from {
+          transform: translateX(-100%);
+          opacity: 1;
+      }
+
+      to {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+
+  @keyframes animation__slide-up-keyframes {
+      from {
+          transform: translateY(100%);
+          opacity: 1;
+      }
+
+      to {
+          transform: translateY(0);
+          opacity: 1;
+      }
+  }
+
+  @keyframes animation__slide--fade-in-upscale {
+      from {
+          opacity: 0;
+          transform: translateY(20px) scale(0);
+      }
+
+      to {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+      }
+  }
+
+  @keyframes animation__slide-down-keyframes {
+      from {
+          transform: translateY(-100%);
+          opacity: 1;
+      }
+
+      to {
+          transform: translateY(0);
+          opacity: 1;
+      }
+  }
+
+  .animation__slide--right {
+      animation-duration: 2s;
+      animation-name: animation__slide-right-keyframes;
+      animation-fill-mode: forwards;
+  }
+
+  .animation__slide--left {
+      animation-duration: 2s;
+      animation-name: animation__slide-left-keyframes;
+      animation-fill-mode: forwards;
+  }
+
+  .animation__slide--up {
+      animation-duration: 2s;
+      animation-name: animation__slide-up-keyframes;
+  }
+
+  .animation__slide--fade-in-upscale {
+      animation: animation__slide--fade-in-upscale 1s forwards;
+  }
+
+  .animation__slide--down {
+      animation-duration: 2s;
+      animation-name: animation__slide-down-keyframes;
+      animation-fill-mode: forwards;
+  }
