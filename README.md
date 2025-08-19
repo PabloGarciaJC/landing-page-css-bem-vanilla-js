@@ -15,7 +15,6 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 - Menú de navegación adaptable para dispositivos móviles y escritorio.
 - Secciones: Inicio, Nosotros, Servicios, Portafolio, Contacto y Footer.
-- Animaciones al hacer scroll usando `IntersectionObserver`.
 - Estructura y clases organizadas con **BEM**.
 - Diseño responsive y ligero.
 - Sin frameworks ni preprocesadores.
@@ -28,15 +27,12 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 - **CSS3** (con variables CSS)
 - **JavaScript Vanilla (ES6+)**
 - **BEM (Block Element Modifier)** como metodología de nombrado
-- **Intersection Observer** para detectar elementos en el viewport
 
 ---
 
-## 🎯 Animaciones
+## Instalación
 
-- Las animaciones se aplican dinámicamente a los elementos al entrar en el viewport.
-- Uso de `IntersectionObserver` para detectar la visibilidad y activar las animaciones.
-- Animaciones definidas con `@keyframes` y transiciones CSS para efectos suaves y fluidos.
+> ⚠️ No es necesario **Docker**, **Docker Compose** ni **Make**, ya que este proyecto es estático.
 
 ---
 
