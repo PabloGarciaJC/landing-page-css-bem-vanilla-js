@@ -34,6 +34,13 @@ class App {
   }
 
   customApp() {
+
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+
     this.applyAnimationsByDirection(".animation__left", "left");
     this.applyAnimationsByDirection(".animation__right", "right");
     this.applyAnimationsByDirection(".animation__fade-in-upscale", "fade-in-upscale");
