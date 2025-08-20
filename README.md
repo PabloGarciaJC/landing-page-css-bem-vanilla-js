@@ -15,6 +15,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 - Menú de navegación adaptable para dispositivos móviles y escritorio.
 - Secciones: Inicio, Nosotros, Servicios, Portafolio, Contacto y Footer.
+- Formulario de contacto estilizado.
 - Estructura y clases organizadas con **BEM**.
 - Diseño responsive y ligero.
 - Sin frameworks ni preprocesadores.
