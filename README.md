@@ -2,7 +2,7 @@
 
 Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usando la metodología **BEM** para una estructura clara y escalable. Animaciones implementadas con **Intersection Observer** sin dependencias externas.
 
-## 🚀 Demo del Proyecto
+## Demo del Proyecto
 
 [https://landing-page-css-bem-vanilla-js.com/](https://landing-page-css-bem-vanilla-js.pablogarciajc.com/)
 
@@ -11,7 +11,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 ---
 
-## 📌 Funcionalidades principales
+## Funcionalidades principales
 
 - Menú de navegación adaptable para dispositivos móviles y escritorio.
 - Secciones: Inicio, Nosotros, Servicios, Portafolio, Contacto y Footer.
@@ -21,7 +21,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML5 semántico**
 - **CSS3** (con variables CSS)
