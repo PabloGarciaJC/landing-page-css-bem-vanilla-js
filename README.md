@@ -30,6 +30,14 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 ---
 
+## Animaciones
+
+- Las animaciones se aplican dinámicamente a los elementos al entrar en el viewport.​
+- Uso de IntersectionObserver para detectar la visibilidad y activar las animaciones.​
+- Animaciones definidas con @keyframes y transiciones CSS para efectos suaves y fluidos.​
+  
+---
+
 ## Instalación
 
 > ⚠️ No es necesario **Docker**, **Docker Compose** ni **Make**, ya que este proyecto es estático.
