@@ -41,7 +41,7 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 
 ## Instalación
 
-> ⚠️ No es necesario **Docker**, **Docker Compose** ni **Make**, ya que este proyecto es estático.
+> 👉 No es necesario usar Docker ni Make, ya que este proyecto es completamente estático.
 
 ---
 
