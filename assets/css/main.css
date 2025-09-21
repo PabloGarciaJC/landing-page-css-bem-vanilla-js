@@ -117,6 +117,10 @@ img {
   cursor: pointer;
 }
 
+@media (max-width: 767px) {
+ .header__nav--contact {padding: 5px;}
+}
+
 .nav {
   display: flex;
   gap: 1rem;
