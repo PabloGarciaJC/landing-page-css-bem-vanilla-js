@@ -118,7 +118,7 @@ img {
 }
 
 @media (max-width: 767px) {
- .header__nav--contact {padding: 5px;}
+ .header__nav--proposal {padding: 5px;}
 }
 
 .nav {
