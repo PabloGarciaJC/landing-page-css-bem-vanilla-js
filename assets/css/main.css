@@ -1,6 +1,6 @@
 :root {
   --primary-color: #28a745;
-  --primary-color-hover: #218838; 
+  --primary-color-hover: #218838;
   --secondary-color: #6c757d;
   --secondary-color-hover: #5a6268;
   --black: #000;
@@ -80,7 +80,7 @@ img {
   background-color: var(--secondary-color-hover);
 }
 
-.btn--third{
+.btn--third {
   background-color: var(--white);
 }
 
@@ -117,8 +117,19 @@ img {
   cursor: pointer;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header__nav {
+    gap: 5px;
+  }
+  .header__nav--proposal {
+    padding: 5px;
+  }
+}
+
 @media (max-width: 767px) {
- .header__nav--proposal {padding: 5px;}
+  .header__nav--proposal {
+    padding: 5px;
+  }
 }
 
 .nav {
@@ -207,9 +218,17 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.servicio:nth-child(2) { animation-delay: 0.2s; }
-.servicio:nth-child(3) { animation-delay: 0.4s; }
-.servicio:nth-child(4) { animation-delay: 0.6s; }
+.servicio:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.servicio:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.servicio:nth-child(4) {
+  animation-delay: 0.6s;
+}
 
 .servicio__title {
   font-size: 1.25rem;
@@ -256,9 +275,17 @@ img {
   justify-content: space-between;
 }
 
-.portafolio__item:nth-child(2) { animation-delay: 0.2s; }
-.portafolio__item:nth-child(3) { animation-delay: 0.4s; }
-.portafolio__item:nth-child(4) { animation-delay: 0.6s; }
+.portafolio__item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.portafolio__item:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.portafolio__item:nth-child(4) {
+  animation-delay: 0.6s;
+}
 
 .portafolio__info {
   padding: 1rem;
@@ -340,91 +367,91 @@ img {
   color: var(--white);
 }
 
- /* # ANIMACIONES
+/* # ANIMACIONES
 ================================================== */
-  @keyframes animation__slide-right-keyframes {
-      from {
-          transform: translateX(100%);
-          opacity: 1;
-      }
-
-      to {
-          transform: translateX(0);
-          opacity: 1;
-      }
+@keyframes animation__slide-right-keyframes {
+  from {
+    transform: translateX(100%);
+    opacity: 1;
   }
 
-  @keyframes animation__slide-left-keyframes {
-      from {
-          transform: translateX(-100%);
-          opacity: 1;
-      }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
-      to {
-          transform: translateX(0);
-          opacity: 1;
-      }
+@keyframes animation__slide-left-keyframes {
+  from {
+    transform: translateX(-100%);
+    opacity: 1;
   }
 
-  @keyframes animation__slide-up-keyframes {
-      from {
-          transform: translateY(100%);
-          opacity: 1;
-      }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
-      to {
-          transform: translateY(0);
-          opacity: 1;
-      }
+@keyframes animation__slide-up-keyframes {
+  from {
+    transform: translateY(100%);
+    opacity: 1;
   }
 
-  @keyframes animation__slide--fade-in-upscale {
-      from {
-          opacity: 0;
-          transform: translateY(20px) scale(0);
-      }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
-      to {
-          opacity: 1;
-          transform: translateY(0) scale(1);
-      }
+@keyframes animation__slide--fade-in-upscale {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0);
   }
 
-  @keyframes animation__slide-down-keyframes {
-      from {
-          transform: translateY(-100%);
-          opacity: 1;
-      }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
 
-      to {
-          transform: translateY(0);
-          opacity: 1;
-      }
+@keyframes animation__slide-down-keyframes {
+  from {
+    transform: translateY(-100%);
+    opacity: 1;
   }
 
-  .animation__slide--right {
-      animation-duration: 2s;
-      animation-name: animation__slide-right-keyframes;
-      animation-fill-mode: forwards;
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
 
-  .animation__slide--left {
-      animation-duration: 2s;
-      animation-name: animation__slide-left-keyframes;
-      animation-fill-mode: forwards;
-  }
+.animation__slide--right {
+  animation-duration: 2s;
+  animation-name: animation__slide-right-keyframes;
+  animation-fill-mode: forwards;
+}
 
-  .animation__slide--up {
-      animation-duration: 2s;
-      animation-name: animation__slide-up-keyframes;
-  }
+.animation__slide--left {
+  animation-duration: 2s;
+  animation-name: animation__slide-left-keyframes;
+  animation-fill-mode: forwards;
+}
 
-  .animation__slide--fade-in-upscale {
-      animation: animation__slide--fade-in-upscale 1s forwards;
-  }
+.animation__slide--up {
+  animation-duration: 2s;
+  animation-name: animation__slide-up-keyframes;
+}
 
-  .animation__slide--down {
-      animation-duration: 2s;
-      animation-name: animation__slide-down-keyframes;
-      animation-fill-mode: forwards;
-  }
+.animation__slide--fade-in-upscale {
+  animation: animation__slide--fade-in-upscale 1s forwards;
+}
+
+.animation__slide--down {
+  animation-duration: 2s;
+  animation-name: animation__slide-down-keyframes;
+  animation-fill-mode: forwards;
+}
