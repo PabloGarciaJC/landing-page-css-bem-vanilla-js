@@ -1,4 +1,4 @@
-# Landing Page – CSS3 + BEM + Vanilla JS
+# Landing Page (CSS3 + BEM + JavaScript)
 
 Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usando la metodología **BEM** para una estructura clara y escalable. Animaciones implementadas con **Intersection Observer** sin dependencias externas.
 
