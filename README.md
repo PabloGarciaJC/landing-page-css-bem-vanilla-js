@@ -57,4 +57,4 @@ Landing Page desarrollada con **HTML5**, **CSS3** y **JavaScript Vanilla**, usan
 | **Twitter**  | Proyectos, pensamientos y actualizaciones.                | [Presiona aquí](https://x.com/PabloGarciaJC?t=lct1gxvE8DkqAr8dgxrHIw&s=09)   |
 
 ---
-> _"El buen manejo de tus finanzas hoy construye la seguridad del mañana."_
+> _"La única forma de hacer un gran trabajo es amar lo que haces." - Steve Jobs_
